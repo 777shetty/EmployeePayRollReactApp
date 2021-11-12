@@ -43,6 +43,7 @@ const PayrollForm = (props) => {
         }
     }
     const [formValue, setForm] = useState(initialValue);
+    const [displayMeassage, setDisplayMessage]=useState("");
 
     const employeeService = new EmployeeService();
 
@@ -136,12 +137,19 @@ const PayrollForm = (props) => {
               console.log("id"+formValue.id);
               employeeService.addEmployee(object)
                 .then((data) => {
-                  alert("data added successfully");
-                  props.history.push("");
-                  window.location.reload();
+                 setDisplayMessage("Successfully added user");
+                  //props.history.push("");
+                  //window.location.reload();
+                  setTimeout(()=>{
+                      setDisplayMessage("");
+                  },5000);
                 })
                 .catch((err) => {
-                  alert("error while Adding data");
+                  console.log("Error to add user");
+                  setDisplayMessage("Error to add user");
+                  setTimeout(()=>{
+                    setDisplayMessage("");
+                },5000);
                 });
     }
 }
@@ -300,6 +308,9 @@ const PayrollForm = (props) => {
                             <button type="button" onClick={reset} className="resetButton button">Reset</button>
                         </div>
                     </div >
+                    <div>
+                        {displayMeassage}
+                    </div>
                 </form >
             </div >
         </div >
