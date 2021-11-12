@@ -1,5 +1,6 @@
 import config from "../config/config";
-const axios = require('axios').default;
+import axios from 'axios';
+/*const axios = require('axios').default;*/
 
 export default class EmployeeService {
   baseUrl = config.baseUrl;
