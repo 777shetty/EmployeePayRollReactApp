@@ -1,17 +1,19 @@
 import './App.css';
 import PayrollForm from './components/payroll-form/PayrollForm';
+import Home from './components/home/Home';
 import {
   BrowserRouter as Router,
   Switch, 
     Route , 
-    Redirect,
   }from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-        <Route path="/" component={PayrollForm} exact />
+    
+        <Route exact path="/" component={Home} />
+        <Route path="/add" component={PayrollForm} />
         </Switch>
       </Router>
     </div>
