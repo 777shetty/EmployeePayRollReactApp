@@ -120,6 +120,57 @@
       "notes": "Welcome",
       "id": "60",
       "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Jeevan",
+      "departMent": [
+        "HR"
+      ],
+      "gender": "male",
+      "salary": "450000",
+      "startDate": "1 Jan 2020",
+      "notes": "Welcome",
+      "id": "46",
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Chethan",
+      "departMent": [
+        "HR",
+        "Sales"
+      ],
+      "gender": "male",
+      "salary": "450000",
+      "startDate": "13 Aug 2020",
+      "notes": "Welcome",
+      "id": "62",
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Chethan",
+      "departMent": [
+        "HR",
+        "Sales"
+      ],
+      "gender": "male",
+      "salary": "450000",
+      "startDate": "13 Aug 2020",
+      "notes": "Welcome",
+      "id": "68",
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Rohith",
+      "departMent": [
+        "Sales",
+        "HR"
+      ],
+      "gender": "male",
+      "salary": "450000",
+      "startDate": "13 July 2019",
+      "notes": "Welcome Rohith",
+      "id": "78",
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
     }
   ]
 }
