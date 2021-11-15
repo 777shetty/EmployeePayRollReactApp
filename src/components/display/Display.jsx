@@ -6,6 +6,10 @@ import { withRouter } from "react-router-dom";
 
 
 const Display = (props) => {
+    const update = (employeeId) => {
+        props.history.push(`add/${employeeId}`);
+      };
+      
     const profileImages = require.context("../../assets/profile-images/", true);
     return (
       <table id="display" className="display">
@@ -41,7 +45,7 @@ const Display = (props) => {
                 <td>{element.startDate}</td>
                 <td>
                   <img src={deleteIcon} alt="delete" />
-                  <img src={editIcon} alt="edit" />
+                  <img onClick={() => update(element.id)}src={editIcon} alt="edit" />
                 </td>
               </tr>
             ))}

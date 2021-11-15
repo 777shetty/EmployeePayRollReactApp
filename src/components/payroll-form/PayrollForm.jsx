@@ -36,7 +36,7 @@ const PayrollForm = (props) => {
         }
     }
     const [formValue, setForm] = useState(initialValue);
-    const [displayMessage, setDisplayMessage] = useState("hello");
+    const [displayMessage, setDisplayMessage] = useState("");
     const employeeService = new EmployeeService();
     const profileImages = require.context('../../assets/profile-images/', true);
     const params = useParams();
@@ -59,9 +59,6 @@ const PayrollForm = (props) => {
                 console.log("err is ", err);
             });
     };
-
-    let _ = require('lodash');
-    formValue.id = _.uniqueId();
 
     const setData = (obj) => {
         let array = obj.startDate.split(" ");
@@ -161,17 +158,33 @@ const PayrollForm = (props) => {
                 profileUrl: formValue.profileUrl,
             };
             console.log("id" + formValue.id);
-            employeeService.addEmployee(object)
-                .then((data) => {
-                    console.log("data added successfully");
+            if (formValue.isUpdate) {
+                employeeService
+                    .updateEmployee(object)
+                    .then((data) => {
+                        console.log("data added successfully");
                     setDisplayMessage("data added successfully");
-                })
-                .catch((err) => {
-                    console.log("error while Adding data");
+                    props.history.push("");
+                    })
+                    .catch((error) => {
+                        console.log("error while Adding data");
                     setDisplayMessage("error while Adding data");
-                });
-        }
+                    });
+            } else {
+                employeeService
+                    .addEmployee(object)
+                    .then((data) => {
+                        console.log("data added successfully");
+                    setDisplayMessage("data added successfully");
+                    props.history.push("");
+                    })
+                    .catch((error) => {
+                        console.log("error while Adding data");
+                        setDisplayMessage("error while Adding data");
+                        });
+            }
     }
+}
 
     const reset = () => {
         setForm({ ...initialValue, id: formValue.id, isUpdate: formValue.isUpdate });
