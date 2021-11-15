@@ -3,54 +3,54 @@
     {
       "name": "mohit kumar new",
       "gender": "male",
-      "departMent": [
+      "department": [
         "HR"
       ],
       "salary": "30000",
       "startDate": "1 Jan 2020",
       "notes": "",
       "id": 1604589551457,
-      "profileUrl": "../assets/profile-images/Ellipse 1.png"
+      "profileUrl": "Ellipse 1.png"
     },
     {
       "name": "mohit kumar test",
       "gender": "male",
-      "departMent": [
+      "department": [
         "HR"
       ],
       "salary": "30000",
       "startDate": "1 Jan 2020",
       "notes": "",
       "id": 1604589594363,
-      "profileUrl": "../assets/profile-images/Ellipse 1.png"
+      "profileUrl": "Ellipse 1.png"
     },
     {
       "name": "mohit",
       "gender": "male",
-      "departMent": [
+      "department": [
         "HR"
       ],
       "salary": "30000",
       "startDate": "1 Jan 2020",
       "notes": "",
       "id": 1604589699566,
-      "profileUrl": "../assets/profile-images/Ellipse -3.png"
+      "profileUrl": "Ellipse -3.png"
     },
     {
       "name": "test",
       "gender": "male",
-      "departMent": [
+      "department": [
         "HR"
       ],
       "salary": "30000",
       "startDate": "1 Jan 2020",
       "notes": "",
       "id": 1604589731061,
-      "profileUrl": "../assets/profile-images/Ellipse -3.png"
+      "profileUrl": "Ellipse -3.png"
     },
     {
       "name": "Rahul",
-      "departMent": [
+      "department": [
         "Sales",
         "HR"
       ],
@@ -59,118 +59,46 @@
       "startDate": "1 Dec 2019",
       "notes": "Good Employee",
       "id": "34",
-      "profileUrl": "../../assets/profile-images/Ellipse -1.png"
+      "profileUrl": "Ellipse -1.png"
     },
     {
-      "name": "Chethan",
-      "departMent": [
-        "Sales"
+      "name": "Fasso",
+      "department": [
+        "Sales",
+        "Finance"
       ],
-      "gender": "male",
-      "salary": "450000",
-      "startDate": "12 Jan 2020",
-      "notes": "Welcome",
-      "id": "50",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Chethan ",
-      "departMent": [
-        "Sales"
-      ],
-      "gender": "male",
-      "salary": "470000",
-      "startDate": "11 Oct 2020",
-      "notes": "Welcome",
-      "id": "54",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Chethan",
-      "departMent": [
-        "HR"
-      ],
-      "gender": "male",
-      "salary": "470000",
-      "startDate": "15 Oct 2020",
-      "notes": "Welcome",
-      "id": "56",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Sharath",
-      "departMent": [
-        "Sales"
-      ],
-      "gender": "male",
-      "salary": "412000",
-      "startDate": "10 May 2020",
-      "notes": "Welcome",
-      "id": "64",
-      "profileUrl": "../../assets/profile-images/Ellipse -8.png"
-    },
-    {
-      "name": "Jeevan",
-      "departMent": [
-        "Sales"
-      ],
-      "gender": "male",
-      "salary": "450000",
-      "startDate": "14 May 2020",
-      "notes": "Welcome",
-      "id": "60",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Jeevan",
-      "departMent": [
-        "HR"
-      ],
-      "gender": "male",
+      "gender": "female",
       "salary": "450000",
       "startDate": "1 Jan 2020",
-      "notes": "Welcome",
-      "id": "46",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+      "notes": "sd",
+      "id": "52",
+      "profileUrl": "Ellipse -3.png"
     },
     {
-      "name": "Chethan",
-      "departMent": [
-        "HR",
-        "Sales"
-      ],
-      "gender": "male",
-      "salary": "450000",
-      "startDate": "13 Aug 2020",
-      "notes": "Welcome",
-      "id": "62",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Chethan",
-      "departMent": [
-        "HR",
-        "Sales"
-      ],
-      "gender": "male",
-      "salary": "450000",
-      "startDate": "13 Aug 2020",
-      "notes": "Welcome",
-      "id": "68",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "name": "Rohith",
-      "departMent": [
+      "name": "Fasso",
+      "department": [
         "Sales",
-        "HR"
+        "Finance"
+      ],
+      "gender": "female",
+      "salary": "400001",
+      "startDate": "1 Jan 2020",
+      "notes": "dd",
+      "id": "20",
+      "profileUrl": "Ellipse -3.png"
+    },
+    {
+      "name": "Chethan",
+      "department": [
+        "HR",
+        "Sales"
       ],
       "gender": "male",
       "salary": "450000",
-      "startDate": "13 July 2019",
-      "notes": "Welcome Rohith",
-      "id": "78",
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+      "startDate": "15 Oct 2017",
+      "notes": "Welcome",
+      "id": "58",
+      "profileUrl": "Ellipse -3.png"
     }
   ]
 }
