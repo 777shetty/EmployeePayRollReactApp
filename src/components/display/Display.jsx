@@ -3,13 +3,28 @@ import './Display.scss';
 import deleteIcon from '../../assets/icons/delete-black-18dp.svg';
 import editIcon from '../../assets/icons/create-black-18dp.svg';
 import { withRouter } from "react-router-dom";
+import EmployeeService from "../../Services/EmployeeService";
 
 
 const Display = (props) => {
     const update = (employeeId) => {
         props.history.push(`add/${employeeId}`);
       };
-      
+      const remove = (employeeId) => {
+        const employeeService = new EmployeeService();
+        employeeService
+          .deleteEmployee(employeeId)
+          .then((data) => {
+            alert("Are you sure want to delete?");
+            window.location.reload();
+            console.log("data after delete", data);
+            props.getAllEmployee();
+          })
+          .catch((err) => {
+            alert("error while deleting the data!");
+            console.log("error after delete", err);
+          });
+      };
     const profileImages = require.context("../../assets/profile-images/", true);
     return (
       <table id="display" className="display">
@@ -44,7 +59,7 @@ const Display = (props) => {
                 <td> {element.salary}</td>
                 <td>{element.startDate}</td>
                 <td>
-                  <img src={deleteIcon} alt="delete" />
+                  <img onClick={() => remove(element.id)} src={deleteIcon} alt="delete" />
                   <img onClick={() => update(element.id)}src={editIcon} alt="edit" />
                 </td>
               </tr>

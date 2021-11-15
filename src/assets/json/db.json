@@ -1,30 +1,6 @@
 {
   "employee": [
     {
-      "name": "mohit kumar new",
-      "gender": "male",
-      "department": [
-        "HR"
-      ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589551457,
-      "profileUrl": "Ellipse 1.png"
-    },
-    {
-      "name": "mohit kumar test",
-      "gender": "male",
-      "department": [
-        "HR"
-      ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589594363,
-      "profileUrl": "Ellipse 1.png"
-    },
-    {
       "name": "mohit",
       "gender": "male",
       "department": [
@@ -34,18 +10,6 @@
       "startDate": "1 Jan 2020",
       "notes": "",
       "id": 1604589699566,
-      "profileUrl": "Ellipse -3.png"
-    },
-    {
-      "name": "test",
-      "gender": "male",
-      "department": [
-        "HR"
-      ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589731061,
       "profileUrl": "Ellipse -3.png"
     },
     {
@@ -62,43 +26,30 @@
       "profileUrl": "Ellipse -1.png"
     },
     {
-      "name": "Fasso",
+      "name": "Kiran",
       "department": [
         "Sales",
         "Finance"
-      ],
-      "gender": "female",
-      "salary": "450000",
-      "startDate": "1 Jan 2020",
-      "notes": "sd",
-      "id": "52",
-      "profileUrl": "Ellipse -3.png"
-    },
-    {
-      "name": "Fasso",
-      "department": [
-        "Sales",
-        "Finance"
-      ],
-      "gender": "female",
-      "salary": "400001",
-      "startDate": "1 Jan 2020",
-      "notes": "dd",
-      "id": "20",
-      "profileUrl": "Ellipse -3.png"
-    },
-    {
-      "name": "Chethan",
-      "department": [
-        "HR",
-        "Sales"
       ],
       "gender": "male",
       "salary": "450000",
-      "startDate": "15 Oct 2017",
+      "startDate": "19 Jan 2020",
       "notes": "Welcome",
-      "id": "58",
+      "id": 1604589731062,
       "profileUrl": "Ellipse -3.png"
+    },
+    {
+      "name": "Megha",
+      "department": [
+        "Sales",
+        "HR"
+      ],
+      "gender": "female",
+      "salary": "420000",
+      "startDate": "19 Dec 2017",
+      "notes": "Welcome Megha",
+      "id": 1604589731063,
+      "profileUrl": "Ellipse -1.png"
     }
   ]
 }
